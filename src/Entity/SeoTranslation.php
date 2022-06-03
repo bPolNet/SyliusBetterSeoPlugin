@@ -9,49 +9,31 @@ use Sylius\Component\Resource\Model\ResourceInterface;
 
 class SeoTranslation extends AbstractTranslation implements ResourceInterface, SeoTranslationInterface
 {
-    /**
-     * @var int|null
-     */
+    /** @var int|null */
     protected $id;
 
-    /**
-     * @var SeoImageInterface|null
-     */
+    /** @var SeoImageInterface|null */
     protected $image;
 
-    /**
-     * @var string|null
-     */
+    /** @var string|null */
     private $pageTitle;
 
-    /**
-     * @var string|null
-     */
+    /** @var string|null */
     private $ogTitle;
 
-    /**
-     * @var string|null
-     */
+    /** @var string|null */
     private $ogDescription;
 
-    /**
-     * @var string|null
-     */
+    /** @var string|null */
     private $twitterTitle;
 
-    /**
-     * @var string|null
-     */
+    /** @var string|null */
     private $twitterDescription;
 
-    /**
-     * @var string|null
-     */
+    /** @var string|null */
     private $twitterSite;
 
-    /**
-     * @var string|null
-     */
+    /** @var string|null */
     private $extraTags;
 
     public function getId(): ?int

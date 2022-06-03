@@ -1,9 +1,6 @@
-includes:
-    - vendor/phpstan/phpstan-doctrine/extension.neon
-    - vendor/phpstan/phpstan-webmozart-assert/extension.neon
-
 parameters:
     reportUnmatchedIgnoredErrors: false
+    checkMissingIterableValueType: false
 
     excludes_analyse:
         # Makes PHPStan crash

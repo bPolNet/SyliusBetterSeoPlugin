@@ -17,9 +17,7 @@ class Seo implements TranslatableInterface, ResourceInterface, SeoInterface
         getTranslation as private doGetTranslation;
     }
 
-    /**
-     * @var int|null
-     */
+    /** @var int|null */
     protected $id;
 
     public function __construct()
