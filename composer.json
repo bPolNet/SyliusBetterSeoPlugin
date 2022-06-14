@@ -1,6 +1,7 @@
 {
     "name": "joppedc/sylius-better-seo-plugin",
     "type": "sylius-plugin",
+    "version": "v2.0.0",
     "keywords": ["sylius", "sylius-plugin"],
     "description": "Support for SEO metadata on products",
     "license": "MIT",
