@@ -1,5 +1,5 @@
 {
-    "name": "joppedc/sylius-better-seo-plugin",
+    "name": "bpolnet/sylius-better-seo-plugin",
     "type": "sylius-plugin",
     "version": "v2.0.0",
     "keywords": ["sylius", "sylius-plugin"],
